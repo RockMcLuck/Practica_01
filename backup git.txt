@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Ejemplo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="superior">
+        <h1>Pagina Ejemplo</h1>
+    </div>  
+
+    <div class="menu">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#item-1">Item-1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Item-2">Item-2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Item-3">Item-3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Item-4">Item-4</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Item-5">Item-5</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="slider">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                 <img src="img/C.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item active">
+                <img src="img/A.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/D.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/B.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="parrafo">
+            <p> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum quo optio ipsam voluptatum odio necessitatibus consectetur, rem animi distinctio. Incidunt quas laudantium consequatur sit necessitatibus dolor sed voluptatum inventore.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum rem dolor ipsum quaerat, tempore dicta totam? Laudantium, sit voluptate. Mollitia praesentium maxime est, nihil fuga assumenda eum dolore eius.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque harum corporis, dignissimos eaque voluptas ducimus libero sit beatae unde a, hic nihil iusto dolorem, tenetur delectus quas sed. Neque, consequuntur.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti maiores labore placeat facere autem iure, qui atque libero quisquam nam non quaerat nisi sunt voluptatibus nemo? Unde tenetur perspiciatis totam.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe quam voluptatem blanditiis accusamus temporibus, aliquam inventore ipsa nihil aperiam error fugit ad cupiditate consequuntur quidem veritatis, voluptas alias perferendis autem?
+            </p>
+        </div>
+
+        <div class="tabla">
+            <table class="table table-success table-bordered table-striped">
+                <thead class="table-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Larry the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+    <div class="Inferior">
+        <h5>fabio.macias@espam.edu.ec</h5>
+    </div>
+</body>
+</html>
+
+________________________________________________________________________________
+
+*
+{
+    margin: 5;
+    padding: 5;
+}
+
+body
+{
+    background: rgb(22,121,9);
+    background: linear-gradient(90deg, rgba(22,121,9,1) 10%, rgba(26,255,0,1) 25%, rgba(22,121,9,1) 40%, rgba(11,59,4,1) 65%);
+}
+
+.superior, .inferior, h5
+{
+    text-transform: capitalize;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(175, 248, 203);
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.menu, h5
+{
+    background: rgb(42,141,29);
+    background: linear-gradient(90deg, rgba(42,141,29,1) 10%, rgba(46,255,20,1) 25%, rgba(42,141,29,1) 40%, rgba(31,79,24,1) 65%);
+}
+
+.slider
+{
+    padding-top: 10px;
+}
+
+.parrafo, .tabla
+{
+    color: rgb(175, 248, 203);
+    padding: 10px;
+    padding-bottom: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h5
+{
+    padding-bottom: 10px;
+}
+
+_____
+
+509de9fd550c98594e3a132c9fdb1d22d6ff5a3a
+
+308f935e2d5a810c4e43ce6099471342badadcc3

@@ -1,0 +1,45 @@
+*
+{
+    margin: 5;
+    padding: 5;
+}
+
+body
+{
+    background: rgb(22,121,9);
+    background: linear-gradient(90deg, rgba(22,121,9,1) 10%, rgba(26,255,0,1) 25%, rgba(22,121,9,1) 40%, rgba(11,59,4,1) 65%);
+}
+
+.superior, .inferior, h5
+{
+    text-transform: capitalize;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(175, 248, 203);
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.menu, h5
+{
+    background: rgb(42,141,29);
+    background: linear-gradient(90deg, rgba(42,141,29,1) 10%, rgba(46,255,20,1) 25%, rgba(42,141,29,1) 40%, rgba(31,79,24,1) 65%);
+}
+
+.slider
+{
+    padding-top: 10px;
+}
+
+.parrafo, .tabla
+{
+    color: rgb(175, 248, 203);
+    padding: 10px;
+    padding-bottom: 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h5
+{
+    padding-bottom: 10px;
+}
